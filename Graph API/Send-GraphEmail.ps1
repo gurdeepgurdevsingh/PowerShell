@@ -8,7 +8,7 @@
    0.1 - Base Script
 Important Note:
 1. It is recommended to not hard code Client ID and Tenant ID and Secret in the script, instead use, 
-   Azure Key Vault/PowerShell Value or encrypted JML and Import it in the script.
+   Azure Key Vault/PowerShell Vault or encrypted JML and Import it in the script.
 2. Script will need a App Registered in Azure AD with Mail.Send Application Permissions. This service
    principal will be able to send it as any mailbox in the tenant. To restrict the mailbox to specific mailbox
    or mailboxes. Create Application access policy in Exchange Online and Scope it with Security Group with 
